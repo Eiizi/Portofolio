@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"
+      integrity="sha512-hDXpx6vRwBR+f4rnj8BDQRpwfi4lvztz1KPkBPCG2XkTKiJ5Y6zq7/NsDmJRIQbquKchG0DVc6gmZiOE0ZXrvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section s1">
+        <div class="slide">
+          <h1>The First Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Second Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Third Slide</h1>
+        </div>
+      </div>
+
+      <div class="section s2">
+        <div class="slide">
+          <h1>The First Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Second Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Third Slide</h1>
+        </div>
+      </div>
+
+      <div class="section s3">
+        <div class="slide">
+          <h1>The First Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Second Slide</h1>
+        </div>
+
+        <div class="slide">
+          <h1>The Third Slide</h1>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"
+      integrity="sha512-+m1+m9XBnZXowk9jSNIlZYgtOPTIu6aUHha/4/3dk84PQcpWgrNd4/zKmOYno0BQK9nuJ6WgYBnuPqCrmvMNtg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      new fullpage("#fullpage", {
+        autoScrolling: true,
+        navigation: true,
+        navigationTooltips: ["Home", "Aboout us", "Contact"],
+        showActiveTooltips: true,
+        scrollingSpeed: 1000,
+        controlArrows: false,
+        slidesNavigation: true,
+      });
+    </script>
+  </body>
+</html>
